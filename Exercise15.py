@@ -20,3 +20,5 @@ def exponent(base, exp):
     
     # Loop through the range of the exponent
     for _ in range(exp):
+        # Multiply the result by the base in each iteration
+        result *= base
