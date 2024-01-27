@@ -28,6 +28,13 @@ def exponent(base, exp):
 
 # Test cases
 # Set values for the first test case
-base1, exp1 = 2, 5
+base1, exp1 = 4, 6
 result1 = exponent(base1, exp1)
 print(f"{base1} raises to the power of {exp1} is: {result1}")
+
+
+# Set values for the second test case
+base2, exp2 = 5, 4
+result2 = exponent(base2, exp2)
+print(f"{base2} raises to the power of {exp2} is: {result2}")
+
