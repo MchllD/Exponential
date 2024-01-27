@@ -13,3 +13,10 @@
 
 # ---------------------------------------- actual code ---------------------------------------------------
 
+# create function to calculate the exponent of a given base and exponent
+def exponent(base, exp):
+    # Initialize the result to 1
+    result = 1
+    
+    # Loop through the range of the exponent
+    for _ in range(exp):
