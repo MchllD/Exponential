@@ -22,3 +22,6 @@ def exponent(base, exp):
     for _ in range(exp):
         # Multiply the result by the base in each iteration
         result *= base
+        
+    # Return the final result
+    return result
